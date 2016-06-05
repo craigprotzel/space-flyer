@@ -55,7 +55,7 @@ function preload(){
 var theVoice;
 var triggerVoice = false;
 
-function setup() {
+function setup(){
 	createCanvas(800,600);
 	background(125);
 	initGame();
@@ -63,7 +63,7 @@ function setup() {
 	theVoice = new p5.Speech(27); // new P5.Speech object
 }
 
-function draw() {
+function draw(){
 	background(20,40,150);
 
   if (gameIsOver){
