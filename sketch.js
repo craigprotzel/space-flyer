@@ -14,12 +14,10 @@ var timeLimit = 600;
 var gameIsOver;
 var gameWon;
 
-var winText = ["You are such a winner!", "You are amazing!", "I can't believe you actually won!",
-	"Winner, Winner, Winner"];
-var loseText = ["You are such a loser.","You are not very good at this.", "So close. Try again.",
-	"Game Over. You did not win."];
-
+var winText = ["You are such a winner!", "You are amazing!", "I can't believe you actually won!", "Winner, Winner, Winner"];
+var loseText = ["You are such a loser.","You are not very good at this.", "So close. Try again.", "Game Over. You did not win."];
 var ranTextVal;
+
 function initGame(){
 
 	var ranTotal = Math.min(winText.length, loseText.length);
@@ -33,11 +31,10 @@ function initGame(){
 	playerImg = loadImage("assets/rocket.png");
 	player.addImage(playerImg);
 
-
 	walls = new Group();
 	for (var i = 0; i < 7; i++){
 		var skipY = Math.floor(random(0,7));
-		console.log(skipY);
+		//console.log(skipY);
 		for (var j = 0; j < 7; j++){
 			if (j === skipY){
 				continue;
@@ -154,10 +151,8 @@ function checkEdges(){
 		gameIsOver = true;
 		gameWon = true;
 		triggerVoice = true;
-		console.log("WOOHOO!!!");
 	}
 }
-
 
 function mousePressed(){
 	if (gameIsOver){
@@ -166,5 +161,3 @@ function mousePressed(){
 		initGame();
 	}
 }
-
-
