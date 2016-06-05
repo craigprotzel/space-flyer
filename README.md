@@ -12,29 +12,30 @@ SPACE-FLYER
 	* copy the 'space_flyer_start' folder
 
 #####Coding Steps:
+* Create page layout
+	* create p5 canvas
+	* add game title to the page
+
 * Create player
 	* create a sprite
 	* call drawSprites() method inside draw() method
 	* add movement with keyDown() method
-	* add image for the player character
+	* add 'check edges' logic
 
 * Create board
 	* create a group
 	* create sprites for the board
 	* add sprites to the group
 
-* Add position logic
-	* check for player collision with board sprites
-	* check for player leaving the board
+* Add collision detection
 
-* Add timer functionality
-	* set time limit
+* Add game mechanics
+	* add timer logic
 	* add win/lose logic
 	* add restart logic
 
 * Extra
+	* use a [local host](https://github.com/processing/p5.js/wiki/Local-server) to serve the sketch
+	* add an image for the player character
 	* add sound
 	* add speech
- 
-
-
