@@ -7,22 +7,27 @@ SPACE-FLYER
 
 ####Setup:
 * Download an IDE such as [Sublime Text](http://www.sublimetext.com/3)
+	* consider using a javascript linter
+	* Sublime Linter install intructions 
+		* Install [Package Control](https://packagecontrol.io/installation#st3)
+		* Press `Shift+command+P` and search for "Install Package"
+		* Search for "Sublime Linter" and press `Enter` to install 
 * Create initial file structure
 	* download this github repo
 	* copy the 'space_flyer_start' folder
 
-#####Coding Steps:
+####Coding Steps:
 * Create page layout
 	* create p5 canvas
 	* add game title to the page
 
-* Create player
+* Create the player
 	* create a sprite
 	* call drawSprites() method inside draw() method
 	* add movement with keyDown() method
 	* add 'check edges' logic
 
-* Create board
+* Create the board
 	* create a group
 	* create sprites for the board
 	* add sprites to the group
