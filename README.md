@@ -1,5 +1,6 @@
 SPACE-FLYER
 ===========
+(play [HERE](http://craigprotzel.github.io/space-flyer/))
 
 ####Built with:
 * [p5JS](http://p5js.org/download/)
@@ -8,10 +9,10 @@ SPACE-FLYER
 ####Setup:
 * Download an IDE such as [Sublime Text](http://www.sublimetext.com/3)
 	* consider using a javascript linter
-	* Sublime Linter install intructions 
+	* Sublime linter install intructions 
 		* Install [Package Control](https://packagecontrol.io/installation#st3)
-		* Press `Shift+command+P` and search for "Install Package"
-		* Search for "Sublime Linter" and press `Enter` to install 
+		* Press `shift+command+P` and search for "Install Package"
+		* Search for "Sublime Linter" and press `enter` to install 
 * Create initial file structure
 	* download this github repo
 	* copy the 'space_flyer_start' folder
@@ -23,8 +24,8 @@ SPACE-FLYER
 
 * Create the player
 	* create a sprite
-	* call drawSprites() method inside draw() method
-	* add movement with keyDown() method
+	* call `drawSprites()` method inside the `draw()` function
+	* add movement with `keyDown()` method
 	* add 'check edges' logic
 
 * Create the board
@@ -32,7 +33,7 @@ SPACE-FLYER
 	* create sprites for the board
 	* add sprites to the group
 
-* Add collision detection
+* Add collision detection using the `.collide()` method
 
 * Add game mechanics
 	* add timer logic
