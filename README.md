@@ -2,11 +2,11 @@ SPACE-FLYER
 ===========
 (play [HERE](http://craigprotzel.github.io/space-flyer/))
 
-####Built with:
+#### Built with:
 * [p5JS](http://p5js.org/download/)
 * [p5.play](http://p5play.molleindustria.org/)
 
-####Setup:
+#### Setup:
 * Download an IDE such as [Sublime Text](http://www.sublimetext.com/3)
 	* consider using a javascript linter
 	* Sublime linter install intructions 
@@ -17,7 +17,7 @@ SPACE-FLYER
 	* download this github repo
 	* copy the 'space_flyer_start' folder
 
-####Coding Steps:
+#### Coding Steps:
 * Create page layout
 	* create p5 canvas
 	* add game title to the page
